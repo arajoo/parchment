@@ -1,6 +1,6 @@
 {
   "name": "parchment",
-  "version": "2.0.0-dev.0",
+  "version": "7.4.0-dev",
   "description": "A document model for rich text editors",
   "author": "Jason Chen <jhchen7@gmail.com>",
   "homepage": "http://quilljs.com/docs/parchment",
@@ -12,7 +12,9 @@
   ],
   "types": "dist/src/parchment.d.ts",
   "devDependencies": {
-    "babel-core": "^6.26.3",
+    "@types/core-js": "^2.5.3",
+    "@types/node": "^13.7.4",
+    "@babel/core": "^7.6.3",
     "istanbul": "~0.4.5",
     "jasmine-core": "^3.2.1",
     "karma": "^3.0.0",
@@ -24,10 +26,10 @@
     "karma-webpack": "^3.0.0",
     "prettier": "^1.14.2",
     "ts-loader": "^4.5.0",
-    "tslint": "^5.11.0",
+    "ts-node": "~8.1.0",
     "tslint-config-prettier": "^1.15.0",
     "typescript": "^3.0.0",
-    "webpack": "^4.17.1",
+    "webpack": "^4.39.2",
     "webpack-cli": "^3.1.0"
   },
   "prettier": {
